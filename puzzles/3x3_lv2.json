@@ -1,0 +1,142 @@
+{
+  "name": "Town Center",
+  "size": 3,
+  "columns": [
+    "A",
+    "B",
+    "C"
+  ],
+  "initially_revealed": [
+    "Arthur",
+    "Fred",
+    "Clara"
+  ],
+  "cards": [
+    {
+      "cell": "A1",
+      "name": "Arthur",
+      "occupation": "Architect",
+      "status": "Innocent",
+      "clue": {
+        "type": "SAME",
+        "text": "Arthur và David có cùng trạng thái.",
+        "args": {
+          "person1": "Arthur",
+          "person2": "David"
+        }
+      }
+    },
+    {
+      "cell": "B1",
+      "name": "Ben",
+      "occupation": "Baker",
+      "status": "Criminal",
+      "clue": {
+        "type": "SAME",
+        "text": "Ben và Eva có cùng trạng thái.",
+        "args": {
+          "person1": "Ben",
+          "person2": "Eva"
+        }
+      }
+    },
+    {
+      "cell": "C1",
+      "name": "Clara",
+      "occupation": "Dentist",
+      "status": "Innocent",
+      "clue": {
+        "type": "SAME",
+        "text": "Clara và Ian có cùng trạng thái.",
+        "args": {
+          "person1": "Clara",
+          "person2": "Ian"
+        }
+      }
+    },
+    {
+      "cell": "A2",
+      "name": "David",
+      "occupation": "Driver",
+      "status": "Innocent",
+      "clue": {
+        "type": "DIFFERENT",
+        "text": "David và George có trạng thái khác nhau.",
+        "args": {
+          "person1": "David",
+          "person2": "George"
+        }
+      }
+    },
+    {
+      "cell": "B2",
+      "name": "Eva",
+      "occupation": "Engineer",
+      "status": "Criminal",
+      "clue": {
+        "type": "EXACTLY",
+        "text": "Cột B có đúng 2 Tội phạm.",
+        "args": {
+          "region": "col_B",
+          "count": 2
+        }
+      }
+    },
+    {
+      "cell": "C2",
+      "name": "Fred",
+      "occupation": "Florist",
+      "status": "Innocent",
+      "clue": {
+        "type": "DIFFERENT",
+        "text": "Fred và George có trạng thái khác nhau.",
+        "args": {
+          "person1": "Fred",
+          "person2": "George"
+        }
+      }
+    },
+    {
+      "cell": "A3",
+      "name": "George",
+      "occupation": "Guard",
+      "status": "Criminal",
+      "clue": {
+        "type": "SAME",
+        "text": "George và Eva có cùng trạng thái.",
+        "args": {
+          "person1": "George",
+          "person2": "Eva"
+        }
+      }
+    },
+    {
+      "cell": "B3",
+      "name": "Hannah",
+      "occupation": "Hairdresser",
+      "status": "Innocent",
+      "clue": {
+        "type": "SAME",
+        "text": "Hannah và Ian có cùng trạng thái.",
+        "args": {
+          "person1": "Hannah",
+          "person2": "Ian"
+        }
+      }
+    },
+    {
+      "cell": "C3",
+      "name": "Ian",
+      "occupation": "IT Consultant",
+      "status": "Innocent",
+      "clue": {
+        "type": "EXACTLY",
+        "text": "Hàng 3 có đúng 1 Tội phạm.",
+        "args": {
+          "region": "row_3",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

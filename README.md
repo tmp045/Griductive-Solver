@@ -61,7 +61,11 @@ Griductive_Solver_2/
     └── 5x5_lv2.json       # Royal Court
 ```
 
-## 👥 Team
 
-- **Người 1**: Game Engine, GUI, Puzzle Data
-- **Người 2**: Logic, CNF Encoding, DPLL Solver, Logic Agent
+## My Role
+
+- Designed logical constraints and puzzle logic for the game levels.
+- Assisted with implementing and integrating the solving algorithms.
+- Contributed to game development and debugging.
+- Tested gameplay, puzzle logic, and solver correctness.
+- Wrote and maintained technical documentation and the project report.
